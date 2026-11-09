@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Travel Booking</title>
+
+<style>
+body {
+    font-family: Arial;
+    background: #eaf2ff;
+    margin: 0;
+}
+
+header {
+    background: #183b70;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background: #28558c;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.container {
+    background: white;
+    width: 350px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #aaa;
+}
+
+h2 {
+    text-align: center;
+    color: #183b70;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #183b70;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2878bd;
+}
+
+footer {
+    background: #183b70;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Bus & Train Booking</h1>
+<p>Book Your Journey Easily</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Booking</a>
+<a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+<h2>Ticket Booking</h2>
+
+<form>
+<label>Select Transport</label>
+<select>
+<option>Bus</option>
+<option>Train</option>
+</select>
+
+<label>From</label>
+<input type="text" placeholder="Enter Source">
+
+<label>To</label>
+<input type="text" placeholder="Enter Destination">
+
+<label>Journey Date</label>
+<input type="date">
+
+<label>Passenger Name</label>
+<input type="text" placeholder="Enter Name">
+
+<label>Number of Tickets</label>
+<input type="number" min="1" placeholder="Tickets">
+
+<label>Class</label>
+<select>
+<option>General</option>
+<option>Sleeper</option>
+<option>AC</option>
+</select>
+
+<button type="submit">Book Ticket</button>
+
+</form>
+</div>
+
+<footer>
+<p>© 2026 Bus & Train Booking</p>
+<p>Happy Journey!</p>
+</footer>
+
+</body>
+</html>
